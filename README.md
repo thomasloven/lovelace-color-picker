@@ -16,5 +16,5 @@ For installation instructions [see this guide](https://github.com/thomasloven/ha
 | ---- | ---- | ------- | -----------
 | type | string | **Required** | `custom:color-picker`
 | entity | string | **Required** | Entity id of light
-| name | string | `friendly\_name` | Name to display
+| name | string | `friendly_name` | Name to display
 | show\_header | boolean | true | Display header
