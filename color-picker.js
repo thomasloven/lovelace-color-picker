@@ -44,7 +44,7 @@ class ColorPicker extends cardTools.litElement() {
 
   render() {
     const html = cardTools.litHtml();
-    const name = this._config.name || (this.stateObj)?this.stateObj.attributes.friendly_name:null || this._config.entity;
+    const name = this._config.name || (this.stateObj?this.stateObj.attributes.friendly_name:null) || this._config.entity;
     return html`
       ${this.render_style()}
       <ha-card>
